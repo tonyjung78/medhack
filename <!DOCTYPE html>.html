@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC ">
+<html lang="en">
+<head>
+    
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #292929;
+            font: 90% Roboto, Arial, sans-serif;
+            font-weight: 300;
+        }
+
+        p {
+            padding: 0 10px;
+            line-height: 1.8;
+        }
+
+        ul li {
+            padding-right: 10px;
+            line-height: 1.6;
+        }
+
+        h3 {
+            padding: 5px 20px;
+            margin: 0;
+        }
+
+        div#header {
+            position: relative;
+        }
+
+        div#header h1 {
+            height: 80px;
+            line-height: 80px;
+            margin: 0;
+            padding-left: 10px;
+            background: #e0e0e0;
+            color: #292929;
+        }
+
+        div#header a {
+            position: absolute;
+            right: 0;
+            top: 23px;
+            padding: 10px;
+            color: rgb(22, 22, 145);
+        }
+
+        div#navigation {
+            background: #5691b9;
+        }
+
+        div#navigation li {
+            list-style: none;
+        }
+
+        div#extra {
+            background: #47a8ce;
+        }
+
+        div#footer {
+            background: #ffffff;
+            color: #fff;
+        }
+
+        div#footer p {
+            padding: 20px 10px;
+        }
+
+        div#container {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        div#content {
+            float: right;
+            width: 500px;
+        }
+
+        div#navigation {
+            float: left;
+            width: 200px;
+        }
+
+        div#extra {
+            clear: both;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h1>Patient Profile</h1>
+    </div>
+    <div id="wrapper">
+        <div id="content">
+            <p><strong>Patient Information</strong></p>
+            
+
+            <p>Age: <button type="button" class="btn btn-light">22</button>
+            </p>
+
+            <p>Sex: <button type="button" class="btn btn-light">Male</button>
+            </p>
+
+            <p>Income: <button type="button" class="btn btn-light">Low 25% Percentile</button>
+            </p>
+
+            <p>Blindness Level: <button type="button" class="btn btn-light"> Visual Acuity 20/200</button>
+            </p>
+
+        </div>
+        
+    </div>
+    <div id="navigation">
+        <p><strong><center> Tony Jung </center></strong></p>
+        <h3><center><img src="patient.png" width="150" height="200"></center></h3>
+        <ul> 
+        </ul>
+    </div>
+    <div id="extra">
+        <p><strong>Patient Values & Morals</strong></p>
+        <h3>"My Moral!"</h3>
+        <ul>
+            <li>value1</li>
+            <li>value2</li>
+            <li>value3</li>
+            <li>value4</li>
+        </ul>
+    </div>
+    <div id="footer">
+        
+        <button type="button" class="btn btn-primary"><a href="url" style="color:#fff;">Sickness & Diseases</a></button>
+        <button type="button" class="btn btn-primary"><a href="url" style="color:#fff;">Medication & Pill History</a></button>
+        
+    </div>
+</div>
+<script type="text/javascript">AddFillerLink("content", "navigation", "extra")</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</body>
+</html>
