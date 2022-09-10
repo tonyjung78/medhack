@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous"
+    />
+</head>
+<body>
+    <form class="row g-3">
+        <div class="mb-3">
+            <h1 class="text-center fs-1">
+                Li-Fi
+            </h1>
+        </div>
+        <div class="col-12">
+            <label for="patientName" class="form-label">Patient</label>
+            <select id="patientName" class="form-select">
+              <option selected>Choose...</option>
+              <option>Tony Jung</option>
+              <option>Yoohyuk Chang</option>
+              <option>Jooyoung Ryu</option>
+              <option>Alp Demitras</option>
+              <option>Ryan Nyugen</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="month" class="form-label">Month</label>
+            <select id="month" class="form-select">
+                <option selected>Choose...</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="date" class="form-label">Day</label>
+            <input type="text" class="form-control" id="date">
+        </div>
+        <div class="col-md-4">
+          <label for="year" class="form-label">Year</label>
+          <input type="text" class="form-control" id="year">
+        </div>
+        <div class="col-12">
+            <label for="time" class="form-label">time</label>
+            <select id="time" class="form-select">
+                <option selected>Choose...</option>
+                <option>09:00</option>
+                <option>10:00</option>
+                <option>11:00</option>
+                <option>12:00</option>
+                <option>13:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>16:00</option>
+            </select>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="reason" style="height: 100px"></textarea>
+            <label for="reason">Reason for Visit</label>
+        </div>
+    </form><br>
+    <div class="col-12">
+    <button id="apt" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <script src="script.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"
+    ></script>
+</body>
+</html>
